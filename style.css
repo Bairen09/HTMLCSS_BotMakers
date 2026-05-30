@@ -1,0 +1,91 @@
+body{
+    background-color: whitesmoke;
+    font-family:'Times New Roman', Times, serif
+}
+img{
+    height: 400px;
+    width: 500px;
+}
+button{
+    height: 40px;
+    width: 40px;
+    background-color: brown;
+
+}
+button:hover{
+    height: 50px;
+    width:50px;
+    background-color: bisque;
+}
+.drone{
+    width:500px;
+}
+.full{
+    max-height: 500px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+h2{
+    text-align: center;
+    
+}
+h5{
+    text-align: center;
+}
+.first{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    border: 20px;  
+}
+.BoxA{
+    
+    border-right: 20px;
+    padding: 20px;
+    background-color: azure;
+    border-radius: 12px;
+}
+.BoxB{
+    border: 20px;
+    padding: 20px;
+    background-image: -webkit-image-set(sky);
+    background-color: aqua;
+    border-radius: 12px;
+}
+.second{
+    display: flex;
+    align-items: center;
+    background-color: skyblue;
+    border-radius: 12px;
+}
+.BoxE{
+    min-width: 500px;
+    padding: 20px;
+}
+.third{
+    display: flex;
+    align-items: center;
+    border: 20px;
+    padding: 20px;
+}
+.BoxC{
+    height: 500px;
+    width: 500px;
+    border: 20px;
+    padding: 20px;
+    background-image: -webkit-image-set(sky);
+    background-color: aqua;
+    border-radius: 12px;
+}
+.BoxD{
+    height: 500px;
+    width: 500px;
+    border-left: 20px;
+    padding: 20px;
+    background-color: azure;
+    border-radius: 12px;
+}
+.cube{
+    height: 250px;
+    width: 400px;
+}
